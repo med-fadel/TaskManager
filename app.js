@@ -67,7 +67,6 @@ app.post('/getData', function (req, res) {
 
 app.post('/savetask', function (req, res) {
   console.log(req.body);
-  console.log('ffff');
   var params = { task: req.body.task };
   request.post({ url: "http://localhost:3000/saveTask", form: params }, function (error, response, body) {
     res.send(body);
