@@ -2,9 +2,7 @@
 
 Realiser par : 
 
-* [DEV94](https://github.com/DEV94) -
-
-**Fadel Mohammed** &lt;meddevlopp@gmail.com&gt;
+* [DEV94](https://github.com/DEV94) - **Fadel Mohammed** &lt;meddevlopp@gmail.com&gt;
 
 
 Cette application permet de gérer les tâches, groupes de tâches et les utilisateur dévlopper en JavaScript sous le Runtime NodeJs et AngularJs pour la gestion des écrans (SPA) , pour le stockage j'ai utiliser la base NoSql MongoDB.
