@@ -1,7 +1,11 @@
 <h1>TaskManager</h1>
+
 Realiser par : 
+
+* [DEV94](https://github.com/DEV94) -
+
 **Fadel Mohammed** &lt;meddevlopp@gmail.com&gt;
-* [DEV94](https://github.com/DEV94)
+
 
 Cette application permet de gérer les tâches, groupes de tâches et les utilisateur dévlopper en JavaScript sous le Runtime NodeJs et AngularJs pour la gestion des écrans (SPA) , pour le stockage j'ai utiliser la base NoSql MongoDB.
 La connexion entre le client web et les services web se fait en SSL et l'application contient des mechanisme contre les attaque DDOS, Sql Injection , etc ....
