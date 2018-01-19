@@ -56,4 +56,4 @@ $ node app.js
 
 puis aller vers l'URL https://localhost.com pour que vous puissiez commencer l'utilisation de l'application.
 
-il faut créer un compte et se connecter puis avoir l'access au autres fonctionnalité de l'application.
+il faut créer un compte et se connecter pour avoir l'access au autres fonctionnalité de l'application.
