@@ -1,33 +1,33 @@
 <div class="container" ng-controller="signupCtrl">
-        <h2>S'INSCRIRE</h2>
-    <div class="alert alert-danger col-6" role="alert" ng-show="error">
-        {{error}}
+    <h2>S'INSCRIRE</h2>
+<div class="alert alert-danger col-6" role="alert" ng-show="error">
+    {{error}}
+</div>
+<form>
+    <div class="form-group">
+            <label class="alert alert-danger col-6" role="alert" ng-show="emailError">{{emailError}}</label>
+        <div class="col-6">
+            <input id="tool" class="form-control" type="email" placeholder="E-mail" ng-model="email">
+        </div>
     </div>
-    <form>
-        <div class="form-group">
-                <label class="alert alert-danger col-6" role="alert" ng-show="emailError">{{emailError}}</label>
-            <div class="col-6">
-                <input id="tool" class="form-control" type="email" placeholder="E-mail" ng-model="email"/>
-            </div>
-        </div>
 
-        <div class="form-group">
-                <label class="alert alert-danger col-6" role="alert" ng-show="passewordError">{{passewordError}}</label>
-            <div class="col-6">
-                <input class="form-control" type="password" placeholder="Mot de passe" ng-model="password" />
-            </div>
+    <div class="form-group">
+            <label class="alert alert-danger col-6" role="alert" ng-show="passewordError">{{passewordError}}</label>
+        <div class="col-6">
+            <input class="form-control" type="password" placeholder="Mot de passe" ng-model="password">
         </div>
+    </div>
 
-        <div class="form-group">
-            <div class="col-4">
-                <button class="btn btn-primary" ng-click="signup()">Inscrire</button>
-            </div>
+    <div class="form-group">
+        <div class="col-4">
+            <button class="btn btn-primary" ng-click="signup()">Inscrire</button>
         </div>
-        
-        <div class="form-group row">
-            <div class="col-4">
-                    <p>Vous avez déja un compte? <a href="#!/login">s'authentifier ici</a></p>
-            </div>
+    </div>
+    
+    <div class="form-group row">
+        <div class="col-4">
+                <p>Vous avez déja un compte? <a href="#!/login">s'authentifier ici</a></p>
         </div>
-    </form>
+    </div>
+</form>
 </div>

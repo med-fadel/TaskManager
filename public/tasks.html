@@ -1,14 +1,14 @@
 <div class="container" ng-controller="tasksCtrl">
     <h2>{{tagName}}</h2>
-    <br/>
-    <br/>
+    <br>
+    <br>
 
     <h4>ToDo</h4>
 
     <form ng-show="showForm">
         <div class="form-group row">
             <div class="col-12">
-                <input class="form-control" type="text" placeholder="Tâche" ng-model="task" />
+                <input class="form-control" type="text" placeholder="Tâche" ng-model="task">
             </div>
         </div>
         <div class="form-group row">
@@ -23,7 +23,7 @@
             <input type="checkbox" ng-model="t.done" ng-click="updateTask(t.id, t.done)"> {{t.label}}
         </li>
     </ul>
-    <br/>
+    <br>
     <h4>Done</h4>
 
     <ul class="list-group">

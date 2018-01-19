@@ -3,7 +3,7 @@ var url = 'mongodb://localhost/';
 
 MongoClient.connect(url, function (err, db) {
     if (err) throw err;
-  var dbo = db.db("Manager");
+  var dbo = db.db("taskManager");
   console.log("Database created!");
   dbo.createCollection("task", function(err, res) {
     if (err) throw err;
