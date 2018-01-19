@@ -1,0 +1,7 @@
+<div class="container" ng-controller="doneCtrl">
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="t in taskList" ng-dblclick="delete(t.id)">
+            <input type="checkbox" ng-model="t.done" ng-click="updateTask(t.id, t.done)"> {{t.label}}
+        </li>
+    </ul>
+</div>
