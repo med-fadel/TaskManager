@@ -5,10 +5,7 @@ Realiser par :
 * [DEV94](https://github.com/DEV94) - **Fadel Mohammed** &lt;meddevlopp@gmail.com&gt;
 
 
-Cette application permet de gérer les tâches, groupes de tâches et les utilisateur dévlopper en JavaScript sous le Runtime NodeJs et AngularJs pour la gestion des écrans (SPA) , pour le stockage j'ai utiliser la base NoSql MongoDB.
-La connexion entre le client web et les services web se fait en SSL et l'application contient des mechanisme contre les attaque DDOS, Sql Injection , etc ....
-
-Cette application se structure en deux silos 'taskSilo.js' pour la gestion des tâches et les groupes de tâches et 'userSilo.js' pour gérer les utilisateurs, ces deux orchestrés par un pilot 'app.js' qui permet de recevoir les requêtes depuis le client et les aiguillées vers les silos et récupéré les résultats.
+Gestionnaire de tâche
 
 
 # Table of Contents
