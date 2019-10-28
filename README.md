@@ -39,24 +39,6 @@ puis lancer le scripte
 $ node install.js
 ```
 
-## Install
-Pour installer il faut recupérer le ficheir 'package.json' puis lancer la commande : 
-
-```console
-$ npm install
-```
-et pour initialiser la stucture de données il faut executer le script d'install apres la modification de l'url du serveur de la base de données.
-
-changer l'url dans le fichier install.js dans la racine.
-```
-var url = 'mongodb://localhost/';
-```
-puis lancer le scripte
-
-```console
-$ node install.js
-```
-
 
 ## Usage
 
